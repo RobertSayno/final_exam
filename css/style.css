@@ -14,6 +14,7 @@
     width: 40%;
     text-align: center;
     padding: 5px 20px 5px 20px;
+   
 }
 p{
     position: relative;
@@ -76,6 +77,8 @@ h1{
    }
    .title{
     border: 5px solid red;
+    background-color: green ;
+    
    }
    .container{
         border: 2px solid red;
@@ -139,6 +142,9 @@ h1{
     }
     .col-md-12{
         width:100%;
+    }
+    .title{
+        background-color: gray ;
     }
     .container{
         border: 2px solid darkblue;
@@ -224,9 +230,10 @@ h1{
         position: relative;
         float: right;
         border: 5px solid green;
-        color: black;
+        color: white;
         font-size: 20px;
         padding: 5px 20px 5px 20px;
+        background-color: black;
     }
     .sm-bg-grey{
         background-color: grey;
